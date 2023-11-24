@@ -12,5 +12,5 @@ To use external API we have looked various websites and found the below mentione
     https://api.coinbase.com/v2/exchange-rates?currency=BTC
     https://api.coincap.io/v2/assets/bitcoin 
     
-From the above APIs we choose coincap due to its simplicity.
+From the above APIs we choose coincap due to its simplicity and it does not require API Key for fetching the data.
 
