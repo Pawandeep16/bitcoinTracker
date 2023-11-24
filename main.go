@@ -131,6 +131,6 @@ func main() {
 	http.HandleFunc("/ethereum-price", ethereumPrice)
 	http.HandleFunc("/tether-price", tetherPrice)
 
-	fmt.Println("Server running on http://localhost:8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	fmt.Println("Server running on http://localhost:9090")
+	log.Fatal(http.ListenAndServe(":9090", nil))
 }
