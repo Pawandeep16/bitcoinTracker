@@ -10,7 +10,7 @@ import (
 
 const (
 	baseURL     = "https://api.coincap.io/v2/assets"
-	apiKey      = "YOUR_COINCAP_API_KEY"
+	apiKey      = ""
 	exchangeURL = "https://api.exchangerate-api.com/v4/latest/USD"
 )
 
